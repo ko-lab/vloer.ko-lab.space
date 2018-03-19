@@ -9,7 +9,7 @@ if($_POST['knop']=="strandtest") {
         $client->disconnect();
     });
 
-    $client->connect('localhost');
+    $client->connect($mqttaddr);
     $client->loopForever();
 }
 
