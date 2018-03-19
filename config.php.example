@@ -1,0 +1,5 @@
+<?php
+$mqttuser = "";
+$mqttpass = "";
+$mqttaddr = "";
+?>
